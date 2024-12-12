@@ -1,1 +1,24 @@
+# WeatherTracker
+Weather Tracker allows users to search for a city and view its current weather, including temperature, weather condition, humidity, UV index, and "feels like" temperature. The app automatically saves the last searched city for convenience.
+Instructions
 
+    Clone the Repository:
+
+    git clone <repository_url>
+    cd WeatherTrackerApp
+
+    Open the Project:
+        Open WeatherTracker.xcodeproj in Xcode.
+
+    Run the App:
+        Select an iOS Simulator (e.g., iPhone 13) or connect a physical device.
+        Press Command + R to build and run the app.
+
+API Key
+The app uses WeatherAPI with the included API key.
+You can replace it with your own key in WeatherService.swift.
+How to Use
+
+    Search for a city in the search bar.
+    View weather details, including temperature, weather condition, humidity, UV index, and "feels like" temperature.
+    The app automatically saves your last searched city for future launches.
